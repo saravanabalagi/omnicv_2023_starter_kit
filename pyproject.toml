@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "omnicv-2023-starter-kit"
+version = "0.1.0"
+description = ""
+authors = ["Saravanabalagi Ramachandran <saravanabalagi@gmail.com>"]
+readme = "README.md"
+packages = [{include = "omnicv_2023_starter_kit"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+torch = "^2.0.0"
+tqdm = "^4.65.0"
+torchvision = "^0.15.1"
+pyyaml = "^6.0"
+munch = "^2.5.0"
+numpy = "^1.24.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

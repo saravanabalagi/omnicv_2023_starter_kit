@@ -1,0 +1,7 @@
+mode: infer
+dataset_dir: datasets/infer_images
+infer_glob: "rgb_images/*.png"
+infer_save_dir: results
+
+num_workers: 4
+batch_size: 2
