@@ -1,0 +1,8 @@
+mode: train
+dataset_dir: datasets
+train_file: configs/splits/train.txt
+val_file: configs/splits/val.txt
+
+num_workers: 4
+batch_size: 2
+num_epochs: 1

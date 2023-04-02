@@ -1,0 +1,3 @@
+parallel_domain/scene_000000/00004_MVL.png
+parallel_domain/scene_000001/00004_MVR.png
+woodscape/00000_FV.png
