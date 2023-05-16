@@ -26,7 +26,7 @@ def train(args):
     # define model and load weights
     model = MyAwesomeModel()
     criterion = torch.nn.CrossEntropyLoss()
-    metric_motion = IoU(num_classes=2, weights=[1/20, 19/20])
+    metric_motion = IoU(num_classes=2, weights=[0.02, 0.98])
     # optimizer = None
 
     for epoch in tqdm(range(args.num_epochs), desc='Training'):
